@@ -1,0 +1,13 @@
+{
+    "name": "virtual-health-assistant",
+    "version": "1.0.0",
+    "description": "Web-based Virtual Health Assistant",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  

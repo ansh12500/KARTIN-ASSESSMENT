@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Health Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome <span id="username"></span></h1>
+    <p id="guidance"></p>
+    
+    <form id="updateHealthForm">
+        <label for="parameter">Health Parameter:</label>
+        <input type="text" id="parameter" name="parameter" required>
+        
+        <label for="value">Value:</label>
+        <input type="text" id="value" name="value" required>
+
+        <button type="submit">Update Health</button>
+    </form>
+
+    <br>
+
+    <form id="remindMedicationForm">
+        <label for="medicationName">Medication Name:</label>
+        <input type="text" id="medicationName" name="medication_name" required>
+
+        <label for="timing">Timing:</label>
+        <input type="text" id="timing" name="timing" required>
+
+        <button type="submit">Remind Medication</button>
+    </form>
+
+    <p id="reminder"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
