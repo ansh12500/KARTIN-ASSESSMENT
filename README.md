@@ -1,3 +1,4 @@
+## KARTIN-ASSESSEMENT
 # Let’s Innovate!
 
 ## How can you help Sunita Sharma (65+ years old) to live a healthier and better life?
@@ -34,10 +35,6 @@ your idea using technology known to you. <br>
 2. npm install
 3. Run node server.js
 
-## Usage
+## This Assignment
 
-Provide instructions on how to use your project.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+This project is  [KARTIN Company].
